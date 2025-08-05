@@ -16,6 +16,7 @@ div#catalogo{
    padding: 10px;
   background-color: #F3F4F6;
   text-align: justify;
+  width: 73%;
 }
 
 
@@ -32,13 +33,13 @@ div#catalogo{
     display: inline-block;
 
   gap: 10px;  
-  width: 70%;                
+  width: 73%;                
   transition: all 0.3s ease;  
 }
 
 #preco{
-padding: 7px;
-gap: 7px;
+padding: 10px;
+gap: 10px;
   color: #EAB308;         /* 🎨 cor douradinha */
   font-weight: bold;      /* 🧍 chama atenção */
 }

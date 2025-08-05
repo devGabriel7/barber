@@ -186,12 +186,11 @@ div#catalogo{
   background-color: white;
   border: 2px solid white;
   border-radius: 7px;
- 
   padding: 20px;
   margin: 10px;
   max-width: 300px;
   flex: 1;
-  gap: 10px;       /* 🧱 ativa o Flexbox */
+  gap: 10px;     /* 🧱 ativa o Flexbox */
   flex-direction: column;    /* ⬇️ empilha os itens */
   gap: 10px;                  /* 🧼 espaço entre itens internos */
   transition: all 0.3s ease;  /* 💫 animação suave */
