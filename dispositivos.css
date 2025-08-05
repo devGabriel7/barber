@@ -33,7 +33,6 @@ div#catalogo{
     display: inline-block;
     flex-direction: column;
     align-items: flex-start;
-background-color: red;
   gap: 10px;  
   width: 73%;                
   transition: all 0.3s ease;  
@@ -73,7 +72,6 @@ left: auto;
 
 div#expediente{
   flex-direction: column;
-
   flex-wrap: wrap;
   background-color: white;
   border: 2px solid black;
@@ -118,10 +116,10 @@ position: relative;
 left: 20px;
 border: 1px solid rgba(36, 34, 34, 0.178);
 border-radius: 7px 7px 7px ;
-width: 70%; 
+width: 78%; 
 margin-bottom: 60px;
 margin-top: 30px;
-padding-left: 10px;
+padding: 10px;
 margin: auto;
 box-shadow: 2px 2px 2px 2px rgba(8, 8, 8, 0.281);
 
