@@ -29,9 +29,11 @@ div#catalogo{
   padding: 20px;
   margin: 10px;
   max-width: 300px;
-  gap: 10px;       
+  gap: 3px;       
     display: inline-block;
-
+    flex-direction: column;
+    align-items: flex-start;
+background-color: red;
   gap: 10px;  
   width: 73%;                
   transition: all 0.3s ease;  

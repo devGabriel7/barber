@@ -221,6 +221,10 @@ gap: 5px;
   right: 10px;            /* 🔁 10px da direita */
   color: gray;
   font-size: 0.9em;
+ display: flex;justify-content: space-between;
+ margin-top: 5px;
+
+
 }
 .nome-servico {
   display: inline-flex;   /* 📏 nome e ícone lado a lado */
