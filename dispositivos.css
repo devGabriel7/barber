@@ -36,6 +36,13 @@ div#catalogo{
   transition: all 0.3s ease;  
 }
 
+#preco{
+padding: 7px;
+gap: 7px;
+  color: #EAB308;         /* 🎨 cor douradinha */
+  font-weight: bold;      /* 🧍 chama atenção */
+}
+
 
   #formluario0{
     text-align: center;
