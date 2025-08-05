@@ -207,7 +207,8 @@ div.catalogo:hover{
 }
 
 #preco{
-
+padding: 5px;
+gap: 5px;
   color: #EAB308;         /* 🎨 cor douradinha */
   font-weight: bold;      /* 🧍 chama atenção */
 }
