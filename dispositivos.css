@@ -7,6 +7,36 @@
     
     flex-wrap: nowrap;
   }
+
+
+div#catalogo{
+  display: inline;
+  gap: 10px;
+  flex: 1;
+   padding: 10px;
+  background-color: #F3F4F6;
+  text-align: justify;
+}
+
+
+.catalogo {
+  padding: 10px;
+  margin: auto;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 7px;
+  padding: 20px;
+  margin: 10px;
+  max-width: 300px;
+  gap: 10px;       
+    display: inline-block;
+
+  gap: 10px;  
+  width: 70%;                
+  transition: all 0.3s ease;  
+}
+
+
   #formluario0{
     text-align: center;
     background-color: white;
