@@ -1,0 +1,397 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+*{
+    margin: 0;
+
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+    min-height: 567px ;
+    min-width: 320px ;
+   
+}
+
+section.cabeca{
+    font-family: 'Michroma';
+    text-align: center;
+    padding-top: 10px;
+   background-color: black;
+    color: white;
+    box-shadow: 0px 7px 7px rgba(8, 8, 8, 0.295);
+}
+h1{text-align: left;
+    padding-bottom: 7px;
+    padding: 21px;
+}
+header{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-image: linear-gradient(to right, rgb(0, 0, 1),#1b2430de);
+    color: white;
+}
+header > h1{
+    text-align: center;
+  
+}
+.tesoura{
+ color: #EAB308;
+}
+#apresentacao{
+    text-align: center;
+}
+ p{
+   text-align: justify;
+   padding:10px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    padding: 3px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.151);
+    text-align: right;
+
+}
+nav >a{
+    padding: 1px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    transition-duration: .5s;
+    background-color:#5d98e01c;
+    border-radius: 5px;
+
+}
+nav > a:hover{
+background-color:#5D98E0 ;
+text-decoration: underline;
+}
+#container{
+display: flex;
+
+}
+a{
+  text-decoration: none;
+
+}
+#agenda{
+    background-color: #EAB308;
+    color: black;
+    width: 130px;
+    padding: 4px;
+    height: 20px;
+    text-align: center;
+    border-radius: 4px;
+   margin: auto;
+ 
+   
+}
+#fone{
+     background-color: rgba(0, 0, 1, 0.185);
+    width: 130px;
+    height: 20px;
+    padding: 4px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 4px;
+ margin: auto;
+  
+}
+#fone:hover{
+    background-color: white;
+    color: black;
+}
+#agenda:hover{
+    background-color: #eab208bd;
+    color: black;
+    
+}
+#avaliacao {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.dado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  
+}
+
+.dado strong {
+  font-size: 32px;
+  color: #EAB308;
+  
+}
+
+.dado span {
+  font-size: 16px;
+  color: #333;
+  
+}
+
+
+  .descricao {
+    display: flex;
+    flex-wrap: wrap; /* permite quebrar em telas pequenas */
+    gap: 40px;        /* espaço entre os blocos */
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+  }
+
+  #resumo {
+    flex: 1;
+    min-width: 300px;
+  }
+
+  #avaliacao {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+
+  
+ 
+
+.servicos{
+    background-color:#F3F4F6;
+    padding: 40px;
+}
+.servicos{
+    text-align: center;
+    background-color: #F3F4F6;
+}
+div#catalogo{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  background-color: #F3F4F6;
+  text-align: justify;
+  position: relative;
+}
+
+.catalogo {
+  position: relative;         /* 🧷 necessário pro tempo ficar no canto */
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 7px;
+  padding: 20px;
+  margin: 10px;
+  max-width: 300px;
+  flex: 1;
+  display: flex;              /* 🧱 ativa o Flexbox */
+  flex-direction: column;    /* ⬇️ empilha os itens */
+  gap: 10px;                  /* 🧼 espaço entre itens internos */
+  transition: all 0.3s ease;  /* 💫 animação suave */
+}
+
+
+
+
+div.catalogo:hover{
+  box-shadow: 1px 1px  1px 1px rgba(0, 0, 0, 0.308);
+  transform: scale(1.03);
+  
+}
+
+#preco{
+
+  color: #EAB308;         /* 🎨 cor douradinha */
+  font-weight: bold;      /* 🧍 chama atenção */
+}
+
+
+  
+
+.tempo {
+  position: absolute;     /* 📌 fixado dentro da caixa */
+  bottom: 10px;           /* 🔽 10px do fundo */
+  right: 10px;            /* 🔁 10px da direita */
+  color: gray;
+  font-size: 0.9em;
+}
+.nome-servico {
+  display: inline-flex;   /* 📏 nome e ícone lado a lado */
+  align-items: center;
+  gap: 5px;
+}
+#horarios{
+  background-color: white;
+  padding: 20px;
+  
+  
+}
+
+#hora-funcionamento{
+  text-align: center;
+  padding: 10px;
+}
+#hfuncionamento{
+  text-align: center;
+  color: gray;
+
+  
+}
+div.funcionamento{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+
+
+}
+div#expediente{
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: white;
+  width: 20%;
+  gap: 10px;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 1px solid rgba(36, 34, 34, 0.178);
+box-shadow: 2px 2px 2px 2px rgba(8, 8, 8, 0.356);
+  justify-items: center;
+padding: 10px;
+  
+
+}
+
+
+
+.hora{
+  display:inline-flex;
+color: rgb(92, 92, 92);
+margin: 10px;
+}
+#domingo{
+ color: red;
+}
+
+#form{ 
+  text-align: center;
+ padding: 10px;
+  
+  background-color: #F3F4F6;
+}
+.form2{
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
+
+#formluario0{
+  text-align: center;
+ background-color: white;
+ padding: 20px;
+ margin: auto;
+  display: flex;
+  gap: 1px;
+  flex-direction: column;
+  width: 50%;
+  height: 500px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+
+  .input{
+  padding: 1px;
+  transform: translate(10%);
+  
+  width: 80%;
+}
+  
+}
+textarea{
+  width: 400px;
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 12px;
+}
+
+select{
+  width: 60%;
+position: relative;
+left: 70px;
+
+}
+#pagenda{
+  background-color:#EAB308 ;
+  padding: 6px;
+  border-radius: 7px 7px 7px  ;
+ 
+}
+
+#pagenda:hover{
+  background-color: #ffc109;
+  transition-duration: 0.3ms;
+  cursor: pointer;
+
+}
+
+
+
+.locecont{
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: -20px;
+}
+#contato{
+position: relative;
+margin: auto;
+border: 1px solid rgba(36, 34, 34, 0.178);
+border-radius: 7px 7px 7px ;
+width: 40%; 
+padding: 7px;
+margin-bottom: 60px;
+margin-top: 30px;
+
+
+}
+
+
+
+
+footer{
+  background-color: black;
+  color: white;
+ padding: 20px;
+ margin-top: 40px;
+}
+h3{
+  padding: 10px;
+  margin: 9px;
+ display: flex;
+}
+.pfinal{
+color: rgb(163, 163, 163);
+display: flex;
+flex-wrap: wrap;
+gap: 30px;
+}
+#fim{
+ display: flex;
+ flex-wrap: wrap;
+ flex: 1px;
+ gap: 30px;
+ padding: 10px;
+ margin: 5px;
+
+}
+hr{
+  margin: 15px;
+ 
+}
+
+#finall{
+  
+  color: lightgray;
+  text-align: center;
+}

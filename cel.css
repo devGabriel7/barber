@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 500px) and (max-width: 768px) {
+  #formluario0{
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    font-size: 0.8em;
+    margin: auto;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    width: 70%;
+    height: 500%;
+    border-radius: 20px;
+  }
+
+
+div#expediente{
+  flex-direction: column;
+
+  flex-wrap: wrap;
+  background-color: white;
+  border: 2px solid black;
+  width: 60%;
+  gap: 10px;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 1px solid rgba(36, 34, 34, 0.178);
+
+  justify-items: center;
+padding: 10px;
+  
+
+}
+select{
+    width: 83%;
+    position: relative;
+    left: 20px;
+}
+#pform{
+    color: rgb(104, 103, 103);
+}
+textarea{
+    width: 90%;
+    height: 90px;
+    border-radius: 8px 8px 8px ;
+
+}
+
+}
+
+    

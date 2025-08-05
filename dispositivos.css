@@ -1,0 +1,176 @@
+/* celulares*/
+
+
+@media screen and   (max-width: 768px) {
+  #avaliacao{
+    display: flex;
+    
+    flex-wrap: nowrap;
+  }
+  #formluario0{
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    font-size: 0.8em;
+    margin: auto;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    width: 70%;
+    height: 500%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  box-shadow: 2px 2px 2px 2px rgba(8, 8, 8, 0.281);
+  }
+.campos{
+  position: relative;
+  text-align: center;
+width: 80%; 
+left: auto;
+
+}
+
+
+div#expediente{
+  flex-direction: column;
+
+  flex-wrap: wrap;
+  background-color: white;
+  border: 2px solid black;
+  width: 60%;
+  gap: 10px;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 1px solid rgba(36, 34, 34, 0.178);
+
+  justify-items: center;
+padding: 10px;
+  
+
+}
+select{
+    width: 80%;
+    position: relative;
+ left: auto;
+}
+#pform{
+    color: rgb(104, 103, 103);
+}
+textarea{
+    width: 90%;
+    height: 60px;
+    border-radius: 8px 8px 8px ;
+
+}
+
+.locecont{
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+ 
+  
+  
+
+}
+#contato{
+position: relative;
+left: 20px;
+border: 1px solid rgba(36, 34, 34, 0.178);
+border-radius: 7px 7px 7px ;
+width: 70%; 
+margin-bottom: 60px;
+margin-top: 30px;
+padding-left: 10px;
+margin: auto;
+box-shadow: 2px 2px 2px 2px rgba(8, 8, 8, 0.281);
+
+}
+ 
+
+
+}
+
+/* tablets e maiores*/
+@media screen and (min-width: 768px){
+  #formluario0{
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    font-size: 0.8em;
+    margin: auto;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    width: 70%;
+    height: 600%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+   box-shadow: 2px 2px 2px 2px rgba(8, 8, 8, 0.281);
+  }
+
+
+div#expediente{
+  flex-direction: column;
+
+  flex-wrap: wrap;
+  background-color: white;
+  border: 2px solid black;
+  width: 60%;
+  gap: 10px;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 1px solid rgba(36, 34, 34, 0.178);
+
+  justify-items: center;
+padding: 10px;
+  
+
+}
+.campos{
+  position: relative;
+width:79%; 
+left: auto;
+
+}
+select{
+    width: 80%;
+    position: relative;
+ left: auto;
+}
+
+#contato{
+position: relative;
+margin: auto;
+border: 1px solid rgba(36, 34, 34, 0.178);
+border-radius: 7px 7px 7px ;
+width: 60%; 
+margin-bottom: 60px;
+margin-top: 30px;
+padding-left: 10px;
+box-shadow: 2px 2px 2px 2px rgba(8, 8, 8, 0.281);
+
+}
+ #fim {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+  padding: 20px;
+  background-color: #000; 
+  color: white;
+}
+
+.final {
+  max-width: 300px;
+}
+
+ #fim {
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
+    align-items: flex-start;
+  }
+
+}

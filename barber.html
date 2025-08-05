@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LD Barbearia</title>
+    <link rel="stylesheet" href="style.css" media="all">
+    <link rel="stylesheet" href="dispositivos.css" >
+</head>
+<body>
+    <section class="cabeca">
+        <div><h1> <span class="tesoura">✄</span> BARBEARIA LD </h1>
+        <nav>
+            <a href="#apresentacao">Home</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#contato">Contato</a>
+        </nav>
+        </div>
+      </section>
+  <header>
+  <h1>Estilo e Dedicação em Cada Atendimento</h1>
+  <p id="apresentacao">Um novo espaço pensado para quem valoriza estilo, conforto e atendimento personalizado. Recém-inaugurada, <br> a LD Barbearia oferece cortes modernos, barba bem feita e atenção total em cada detalhe!</p>
+
+  <div id="container">
+    <a href="#form" id="agenda">Agendar Horário</a>
+    <div id="fone">81 9999-9999</div>
+  </div>
+</header>
+
+   <h1>Minha História</h1>
+   <section class="descricao">
+    <div id="resumo">
+      <p>Apaixonado por estilo e cuidado pessoal, Luiz David descobriu na barbearia mais do que uma profissão — encontrou sua vocação. Recém-formado, mas com uma dedicação de veterano, ele decidiu abrir sua própria barbearia para oferecer mais do que cortes: uma experiência de respeito, atenção e personalidade
+        <p>Desde o início do curso, se destacou pelo capricho nos detalhes, pela vontade de aprender e pela conexão com os clientes. Hoje, com tesoura na mão e o coração cheio de sonhos, dá início a essa nova fase, pronto para transformar cada corte em um momento único.</p>
+    </div>
+    <br>
+    <br>
+
+    <div id="avaliacao">
+  <div class="dado">
+    <strong>1+</strong>
+    <span>Ano de experiência</span>
+  </div>
+  <div class="dado"> 
+    <strong>100+</strong>
+    <span>Clientes satisfeitos</span>
+  </div>
+  <div class="dado">
+    <strong>4.9</strong>
+    <span>Avaliação média</span>
+  </div>
+</div>
+      
+   </section>
+   <br>
+  <section class="servicos" id="servicos"> 
+  <h2 style="font-size: 2.3em;"><strong>Nossos Serviços</strong></h2>
+  <p class="servicos" style="color: gray;">
+    Oferecemos uma variedade de Serviços para cuidar do seu visual
+  </p>
+
+  <div id="catalogo">
+
+    <div class="catalogo">
+      <div class="nome-servico">
+        <strong>Corte Masculino</strong> <span class="tesoura">✄</span>
+      </div>
+      <div id="preco">R$ 20,00</div>
+      <div class="tempo">30 min</div>
+    </div>
+
+    <div class="catalogo">
+      <div class="nome-servico">
+        <strong>Barba</strong> <span class="tesoura">✄</span>
+      </div>
+      <div id="preco">R$ 10,00</div>
+      <div class="tempo">10 min</div>
+    </div>
+
+    <div class="catalogo">
+      <div class="nome-servico">
+        <strong>Corte + Barba</strong> <span class="tesoura">✄</span>
+      </div>
+      <div id="preco">R$ 30,00</div>
+      <div class="tempo">40 min</div>
+    </div>
+
+    <div class="catalogo">
+      <div class="nome-servico">
+        <strong>Corte Infantil</strong> <span class="tesoura">✄</span>
+      </div>
+      <div id="preco">R$ 15,00</div>
+      <div class="tempo">25 min</div>
+    </div>
+
+    <div class="catalogo">
+      <div class="nome-servico">
+        <strong>Sobrancelhas</strong> <span class="tesoura">✄</span>
+      </div>
+      <div id="preco">R$ 5,00</div>
+      <div class="tempo">5 min</div>
+    </div>
+
+    <div class="catalogo">
+      <div class="nome-servico">
+        <strong>Bigode</strong> <span class="tesoura">✄</span>
+      </div>
+      <div id="preco">R$ 5,00</div>
+      <div class="tempo">5 min</div>
+    </div>
+
+  </div>
+</section >
+
+
+<section id="horarios">
+<h1 style="font-size: 2.3em;" id="hora-funcionamento">Horários  de Funcionamento</h1>
+<p id="hfuncionamento"> Estamos abertos de segunda a sábado</p>
+<div id="expediente">
+  <div class="expediente2">
+  <div><strong>Segunda a Sexta</strong>
+  <div class="hora"> 08:00 - 18:00</div>
+  <div class="funcionamento">
+  <div><strong>Sábado</strong>
+  <div class="hora"> 08:00 - 17:00</div>
+  <div class="funcionamento">
+  <div><strong>Domingo</strong>
+  <div class="hora" id="domingo"> Fechado </div>
+  </div>
+</div>
+
+</section>
+
+ 
+
+
+
+  <section id="form" >
+
+  <h1 style="font-size: 2.3em;" class="form2">Agende seu horário</h1>
+  <p class="form2" >Preencha o formulário abaixo e entraremos em contato</p>
+  
+<form id="formluario0" action="formulario.py" method="post" autocomplete="on">
+  <h1> formulário de agendamento</h1>
+    <p id="pform">Preencha todos os campos para realizar seu agendamento</p>
+  
+  
+
+<label  for="inome">Nome Completo</label>
+<input class="campos"  type="text" name="nome" id="inome" required autocomplete="username">
+
+<label  class="inputfoneagenda" for="ifone">Telefone</label>
+<input class="campos"
+  class="input foneagenda" 
+  type="tel" 
+  name="fone" 
+  id="ifone" 
+  required 
+  autocomplete="tel" 
+  maxlength="11" 
+  placeholder="Apenas números">
+
+
+
+<label class="campos"  for="iserv">Serviços</label>
+<select id="serv" name="iserv" required >
+  <option value="">Selecione um serviço</option>
+  <option >Corte Masculino - R$ 20,00</option>
+  <option value="08:30">Barba - R$ 10,00</option>
+  <option value="09:00">Corte + Barba R$ 30,00</option>
+  <option value="09:30">Corte Infantil - R$ 15,00</option>
+  <option value="10:00">Sobrancelhas - R$ 5,00</option>
+  <option value="10:30">Bigode - R$ 5,00</option>
+
+</select>
+  
+
+
+<label class="campos" for="horario">Horário</label>
+<select id="horario" name="horario" required>
+  <option value="">Selecione um horário</option>
+  <option value="08:00">08:00</option>
+  <option value="08:30">08:30</option>
+  <option value="09:00">09:00</option>
+  <option value="09:30">09:30</option>
+  <option value="10:00">10:00</option>
+  <option value="10:30">10:30</option>
+  <option value="11:00">11:00</option>
+  <option value="11:30">11:30</option>
+  <option value="14:00">14:00</option>
+  <option value="14:30">14:30</option>
+  <option value="15:00">15:00</option>
+</select>
+
+
+<p>
+  <label class="campos" for="idata">Data </label>
+  <input type="date" name="data" id="idata" required>
+
+</p>
+
+
+  <p>Observação</p>
+    <textarea name="msg" id="imsg" placeholder=" Alguma Observação especial?"></textarea >
+
+ 
+  <button id="pagenda">Agendar Horário📆</button>
+
+
+
+</form>
+
+</section>
+
+
+
+<section id="localecont">
+
+  
+    <h1 style="font-size: 2.3em;" class="locecont">Localização e Contato</h1>
+    <p style="color: rgb(99, 98, 98);" class="locecont">Venha nos visitar ou entre em contato</p>
+    
+    
+    
+    <div id="contato">
+     <h2>📍 Endereço</h2>
+    <p><strong>R. Nove, 479 - Guabiraba</strong></p>
+    <p>Guabiraba - Recife,PE</p>
+    <p>CEP: 52291-655</p> 
+    <br>
+    <p>📞 (81) 98547-4685</p>
+    <p>🕛 Seg-Sex:08:00-18:00 | Sáb: 08:00-17:00
+    
+    </p>
+    </div>
+    
+   
+
+</section>
+
+
+<footer>
+ <div id="fim"> 
+  <div class="final"><h3><span class="tesoura">✄ </span> BARBEARIA LD</h3>
+ <p class="pfinal">Tradição e qualidade em cada corte. Sua satisfação é nossa prioridade </p></div>
+
+<div class="final"><h3>Contato</h3>
+<p class="pfinal">(81) 98547-4685</p>
+<p class="pfinal">ld134579@gmail.com</p>
+<p class="pfinal">R. Nove, 479 - Guabiraba</p>
+</div>
+
+<div class="final"><h3>Horários</h3>
+<p class="pfinal">segunda a sexta: 08:00 - 18:00</p>
+<p class="pfinal">Sábado: 08:00 - 17:00</p>
+<p class="pfinal">Domingo: Fechado</p>
+</div>
+</div>
+<hr>
+<div>
+  <p id="finall">&copy; 2025 LD Barbearia, Todos os direitos reservados</p>
+</div>
+</div>
+</footer>
+</body>
+</html>
