@@ -147,7 +147,7 @@
   
 
 <label  for="inome">Nome Completo</label>
-<input class="campos"  type="text" name="nome" id="inome" required autocomplete="username">
+<input class="campos"  type="text" name="nome" id="inome" required autocomplete="username" minlength="5" maxlength="30" >
 
 <label  class="inputfoneagenda" for="ifone">Telefone</label>
 <input class="campos"
@@ -158,7 +158,7 @@
   required 
   autocomplete="tel" 
   maxlength="11" 
-  placeholder="Apenas números">
+  placeholder="Apenas números" pattern="[0-9]{8,11}" >
 
 
 
