@@ -140,8 +140,8 @@ a{
 
   .descricao {
     display: flex;
-    flex-wrap: wrap; /* permite quebrar em telas pequenas */
-    gap: 40px;        /* espaço entre os blocos */
+    flex-wrap: wrap; 
+    gap: 40px;        
     justify-content: center;
     align-items: flex-start;
     padding: 40px;
@@ -183,7 +183,7 @@ div#catalogo{
 }
 
 .catalogo {
-  position: relative;         /* 🧷 necessário pro tempo ficar no canto */
+  position: relative;          
   background-color: white;
   border: 2px solid white;
   border-radius: 7px;
@@ -191,10 +191,10 @@ div#catalogo{
   margin: 10px;
   max-width: 300px;
   flex: 1;
-  gap: 10px;     /* 🧱 ativa o Flexbox */
-  flex-direction: column;    /* ⬇️ empilha os itens */
-  gap: 10px;                  /* 🧼 espaço entre itens internos */
-  transition: all 0.3s ease;  /* 💫 animação suave */
+  gap: 10px;     
+  flex-direction: column;    
+  gap: 10px;                  
+  transition: all 0.3s ease;  
 }
 
 
@@ -209,17 +209,17 @@ div.catalogo:hover{
 #preco{
 padding: 5px;
 gap: 5px;
-  color: #EAB308;         /* 🎨 cor douradinha */
-  font-weight: bold;      /* 🧍 chama atenção */
+  color: #EAB308;         
+  font-weight: bold;      
 }
 
 
   
 
 .tempo {
-  position: absolute;     /* 📌 fixado dentro da caixa */
-  bottom: 10px;           /* 🔽 10px do fundo */
-  right: 10px;            /* 🔁 10px da direita */
+  position: absolute;     
+  bottom: 10px;           
+  right: 10px;           
   color: gray;
   font-size: 0.9em;
  display: flex;justify-content: space-between;
@@ -353,12 +353,14 @@ left: 70px;
   padding: 10px;
   margin-top: 10px;
   margin-bottom: -20px;
+
    
 }
 
 #contato{
-position: relative;
-margin: auto;
+display: flex;
+flex-flow: column nowrap;
+justify-content: space-evenly;
 border: 1px solid rgba(36, 34, 34, 0.178);
 border-radius: 7px 7px 7px ;
 width: 300px; 

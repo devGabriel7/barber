@@ -2,6 +2,9 @@
 
 
 @media screen and   (max-width: 768px) {
+  body{
+    overflow-x: hidden;
+  }
   #avaliacao{
     display: flex;
     
@@ -41,8 +44,8 @@ div#catalogo{
 #preco{
 padding: 10px;
 gap: 10px;
-  color: #EAB308;         /* 🎨 cor douradinha */
-  font-weight: bold;      /* 🧍 chama atenção */
+  color: #EAB308;         
+  font-weight: bold;      
 }
 
 
@@ -112,17 +115,17 @@ textarea{
 
 }
 #contato{
+width: 87%;
+ left: 20px;
 position: relative;
-left: 20px;
+
 border: 1px solid rgba(36, 34, 34, 0.178);
 border-radius: 7px 7px 7px ;
-width: 78%; 
 margin-bottom: 60px;
 margin-top: 30px;
 padding: 10px;
-margin: auto;
 box-shadow: 2px 2px 2px 2px rgba(8, 8, 8, 0.281);
-
+ 
 }
  
 
