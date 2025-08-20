@@ -1,10 +1,11 @@
 /* celulares*/
 
-
-@media screen and   (max-width: 768px) {
-  body{
+*{
     overflow-x: hidden;  /* Tira rolagem lateral */
-  }
+
+}
+@media screen and   (max-width: 768px) {
+  
   #avaliacao{
     display: flex;
     
