@@ -154,7 +154,6 @@ box-shadow: 2px 2px 2px 2px rgba(8, 8, 8, 0.281);
 
 div#expediente{
   flex-direction: column;
-
   flex-wrap: wrap;
   background-color: white;
   border: 2px solid black;
@@ -163,12 +162,19 @@ div#expediente{
   margin: 0 auto;
   border-radius: 10px;
   border: 1px solid rgba(36, 34, 34, 0.178);
-
   justify-items: center;
 padding: 10px;
   
-
 }
+
+.nome-servico {
+  white-space: normal; /* deixa o texto quebrar */
+  word-wrap: break-word; /* quebra palavras grandes */
+  max-width: 100%; /* nunca passa da tela */
+}
+  
+
+
 .campos{
   position: relative;
 width:79%; 

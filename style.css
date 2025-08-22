@@ -164,13 +164,11 @@ a{
  
 
 .servicos{
+  text-align: center;
     background-color:#F3F4F6;
     padding: 40px;
 }
-.servicos{
-    text-align: center;
-    background-color: #F3F4F6;
-}
+
 div#catalogo{
   display: flex;
   flex-wrap: wrap;
@@ -178,6 +176,8 @@ div#catalogo{
   background-color: #F3F4F6;
   text-align: justify;
   position: relative;
+
+ 
  
 
 }
@@ -189,7 +189,7 @@ div#catalogo{
   border-radius: 7px;
   padding: 20px;
   margin: 10px;
-  max-width: 300px;
+  width: 100vw;
   flex: 1;
   gap: 10px;     
   flex-direction: column;    
@@ -226,11 +226,6 @@ gap: 5px;
  margin-top: 5px;
 
 
-}
-.nome-servico {
-  display: inline-flex;   /* 📏 nome e ícone lado a lado */
-  align-items: center;
-  gap: 5px;
 }
 #horarios{
   background-color: white;
